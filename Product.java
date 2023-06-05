@@ -1,23 +1,17 @@
 package avtomatHOmeWorck3;
 
-import java.util.List;
 
 public class Product {
     private String nameCoffy;
     private int price;
     private int tempricha;
-    private List<Product> productList;
+    
     public Product(String nameCoffy, int price, int tempricha) {
         this.nameCoffy = nameCoffy;
         this.price = price;
         this.tempricha = tempricha;
     }
-    public void getInfo(){
-        StringBuilder stringBuilder = new StringBuilder();
-        for (Product product : productList) {
-            stringBuilder.append(product).append("\n");
-        }
-    }
+    
     
     public String getNameCoffy() {
         return nameCoffy;

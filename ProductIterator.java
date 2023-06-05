@@ -11,7 +11,6 @@ public class ProductIterator implements Iterator<Product>{
         this.productList = productList;
     }
     
-
     @Override
     public boolean hasNext() {
         return index < productList.size();
