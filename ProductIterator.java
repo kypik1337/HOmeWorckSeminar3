@@ -3,7 +3,7 @@ package avtomatHOmeWorck3;
 import java.util.Iterator;
 import java.util.List;
 
-public class ProductIterator implements Iterator<Product>{
+public class ProductIterator<Product> implements Iterator<Product>{
     private List<Product> productList;
     private int index;
 
